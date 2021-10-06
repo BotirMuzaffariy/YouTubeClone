@@ -1,0 +1,2 @@
+rootProject.name = "Lesson26 MVVM, YouTube API"
+include ':app'

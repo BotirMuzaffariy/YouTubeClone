@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/frag_home">
+
+    <fragment
+        android:id="@+id/frag_home"
+        android:name="uz.lycr.lesson26mvvmyoutubeapi.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/frag_explore"
+        android:name="uz.lycr.lesson26mvvmyoutubeapi.fragments.ExploreFragment"
+        android:label="fragment_explore"
+        tools:layout="@layout/fragment_explore" />
+    <fragment
+        android:id="@+id/frag_subscriptions"
+        android:name="uz.lycr.lesson26mvvmyoutubeapi.fragments.SubscriptionsFragment"
+        android:label="fragment_subscriptions"
+        tools:layout="@layout/fragment_subscriptions" />
+    <fragment
+        android:id="@+id/frag_notifications"
+        android:name="uz.lycr.lesson26mvvmyoutubeapi.fragments.NotificationsFragment"
+        android:label="fragment_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/frag_library"
+        android:name="uz.lycr.lesson26mvvmyoutubeapi.fragments.LibraryFragment"
+        android:label="fragment_library"
+        tools:layout="@layout/fragment_library" />
+</navigation>

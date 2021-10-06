@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/save_watch_later"
+        android:title="Save to Watch later" />
+
+    <item
+        android:id="@+id/save_to_playlist"
+        android:title="Save to playlist" />
+
+    <item
+        android:id="@+id/download"
+        android:title="Download" />
+
+    <item
+        android:id="@+id/share"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/not_interested"
+        android:title="Not interested" />
+
+    <item
+        android:id="@+id/do_not_recommend"
+        android:title="Don't recommend channel" />
+
+    <item
+        android:id="@+id/report"
+        android:title="Report" />
+
+</menu>
